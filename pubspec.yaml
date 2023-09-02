@@ -50,6 +50,7 @@ dependencies:
   dio:
   equatable:
   json_serializable:
+  auto_route_generator:
 
 dev_dependencies:
   flutter_test:
