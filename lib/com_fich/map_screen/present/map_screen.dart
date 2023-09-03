@@ -1,7 +1,5 @@
-import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 
-@RoutePage()
 class MapScreen extends StatefulWidget {
   const MapScreen({Key? key}) : super(key: key);
 

@@ -1,7 +1,5 @@
-import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 
-@RoutePage()
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({Key? key}) : super(key: key);
 
