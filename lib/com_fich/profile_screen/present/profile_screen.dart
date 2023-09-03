@@ -11,7 +11,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text("Profile screen he he he"),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Icon(Icons.person),
+          Text('Vladimir Putin'),
+        ],
+      ),
     );
   }
 }
