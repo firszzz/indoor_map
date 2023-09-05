@@ -5,15 +5,11 @@ abstract class MapEvent extends Equatable {
 }
 
 class LoadMapEvent extends MapEvent {
-  const LoadMapEvent();
-
   @override
-  List<Object> get props => [];
+  List<Object?> get props => [];
 }
 
 class DrawPolygonMapEvent extends MapEvent {
-  const DrawPolygonMapEvent();
-
   @override
   List<Object> get props => [];
 }
